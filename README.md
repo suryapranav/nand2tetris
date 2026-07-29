@@ -1,6 +1,8 @@
 # nand2tetris
 The following is my attempt at creating a rudimentary 16-bit single-cycle processor. This follows the textbook "The Elements of Computing Systems: Building a Modern Computer from First Principles."
 
+![Schematic Image](Physical%20Design/Computer.png)
+
 You can demo the computer using the [Computer](Physical%20Design/Computer.dig) file on [Digital](https://github.com/hneemann/Digital).
 
 If you have a hack `.asm` file, use [this python script](Physical%20Design/generator.py) to convert it to an Intel Hex file which can be stored in the ROM modules to simulate program execution.
